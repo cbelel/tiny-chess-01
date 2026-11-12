@@ -72,7 +72,7 @@ def n(x,z):
 def e(x,s):
  z=sum((V[abs(p)]+(T[(7-(i>>4)if p<0 else i>>4)*8+(i&7)-8]-128 if abs(p)==1 else 0)*(1 if p>0 else -1)for i in range(128)if not i&136 and(p:=x[i])))
  return z if s>0 else -z
-N=[0];L=100000
+N=[0];L=100_000
 def O(x,m):
  return sorted(m,key=lambda v:V[abs(x[v[1]])]*10-V[abs(x[v[0]])]if x[v[1]] else 0,reverse=True)
 def K(x,s):
