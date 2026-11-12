@@ -1,3 +1,4 @@
+#1
 import json,os,urllib.request as u
 E=os.environ.get("MAKEFUN_ENV_URL","")
 V=[0,100,320,330,500,900,0]
